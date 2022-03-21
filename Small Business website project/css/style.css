@@ -1,0 +1,64 @@
+body {
+    background-color: skyblue;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-shadow: gray;
+}
+
+a:hover {
+    text-decoration: none;
+    color: skyblue;
+    font-weight: bold;
+    text-shadow: gray;
+}
+
+#navbar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: skyblue;
+    color: white;
+    text-transform: uppercase;
+    overflow: hidden;
+    width: 100%;
+    color: black;
+}
+
+#navbar, ul{
+    border: 2px solid gray;
+    background-color: rgba(128, 128, 128, .5);
+    text-emphasis: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    float: top;
+}
+
+div {
+    display: grid;
+    background-color: rgba(128, 128, 128, .5);
+    border: 2px solid skyblue;
+    border-radius: 25px;
+}
+
+/* make map and hours in about appear next to eachother on big screens and below eachother on bottom screens*/
+#map {
+    align-items: bottom;
+    
+}
+
+#hours{
+    float:right;
+    background-color: darkgray;
+    text-align: right;
+    font-weight: bold;
+}
